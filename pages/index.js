@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-    <FirstPost/>
+    <h1>hey this is the default home place</h1>
     </>
   )
 }

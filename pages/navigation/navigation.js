@@ -1,31 +1,46 @@
 import Link from "next/link";
 import Image from "next/image";
+import b from '../contact-page/contact' 
 
 export default function Navigation() {
   return (
     <>
-      <div className="flex bg-green-500 justify-between items-center w-full">
-        <Link href="/">
+      <div className="flex bg-green-100 justify-between items-center p-6 w-full">
+        <Link href="/" >
           <Image
             src="/foodlogo.png"
             alt="Vercel Logo"
             className="dark:invert"
-            width={100}
+            width={120}
             height={25}
             priority
           />
         </Link>
-        <div className="flex">
-          <Link href="../services/services">Home </Link>
+        <div className="flex bg-blue-700 justify-between items-center w-1/4">
+          <Link href="/" className="text-white text-lg font-semibold">   Home </Link>
           <div>
-            <Link href="../services/services">Menu </Link>
+            <Link href="../food-menu/food-menu" className="flex text-white text-lg font-semibold">Menu  <Image
+            src="/downArrow.png"
+            alt="Vercel Logo"
+            className="dark:invert"
+            width={25}
+            height={25}
+            priority
+          /></Link>
           </div>
-          <div>
-            <Link href="../services/services">Services </Link>
+          <div className="">
+            <Link href="../services/services" className="flex text-white text-lg font-semibold">Services  <Image
+            src="/downArrow.png"
+            alt="Vercel Logo"
+            className="dark:invert"
+            width={25}
+            height={25}
+            priority
+          /></Link>
           </div>
-          <Link href="../services/services">Offers </Link>
+          <Link href="../offers/offers" className=" text-white text-lg font-semibold">Offers </Link>
         </div>
-        <div className="flex">
+        <div className="flex w-1/6 justify-evenly items-center bg-blue-700">
       <Link href="/">
         <Image
           src="/search.png"
@@ -46,10 +61,10 @@ export default function Navigation() {
           priority
         />
       </Link>
-      <Link href="../services/services" className="">
-        <button className="basis-1 flex bg-orange-100">
+      <Link href="/contact-page/contact" className="">
+        <button className="basis-1 flex  text-white text-base font-normal">
           <Image
-            src="/downArrow.png"
+            src="/phone.png"
             alt="Vercel Logo"
             className="dark:invert"
             width={25}
