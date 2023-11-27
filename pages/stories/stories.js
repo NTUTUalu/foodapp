@@ -20,7 +20,7 @@ export default function Stories() {
             hospitality.
           </p>
           <div className="buttons">
-            <Link href="/contact-page/contact" className="">
+            <Link href="#" className="">
               <button className="basis-1 flex  text-white text-base font-normal rounded-3xl bg-green-400 py-2 px-8">
                 Explore
               </button>
