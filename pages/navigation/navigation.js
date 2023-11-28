@@ -5,7 +5,7 @@ import b from '../contact-page/contact'
 export default function Navigation() {
   return (
     <>
-      <div className="flex bg-green-100 justify-between items-center p-6 w-full">
+      <div className="flex  justify-between items-center py-6 px-20 w-full">
         <Link href="/" >
           <Image
             src="/foodlogo.png"
@@ -16,10 +16,10 @@ export default function Navigation() {
             priority
           />
         </Link>
-        <div className="flex bg-blue-700 justify-between items-center w-1/4">
-          <Link href="/" className="text-white text-lg font-semibold">   Home </Link>
+        <div className="flex  justify-between items-center w-1/4">
+          <Link href="/" className="text-green-400 text-lg font-semibold">   Home </Link>
           <div>
-            <Link href="../food-menu/food-menu" className="flex text-white text-lg font-semibold">Menu  <Image
+            <Link href="../food-menu/food-menu" className="flex text-Slate-600 text-lg font-semibold">Menu  <Image
             src="/downArrow.png"
             alt="Vercel Logo"
             className="dark:invert"
@@ -29,7 +29,7 @@ export default function Navigation() {
           /></Link>
           </div>
           <div className="">
-            <Link href="../services/services" className="flex text-white text-lg font-semibold">Services  <Image
+            <Link href="../services/services" className="flex text-Slate-600 text-lg font-semibold">Services  <Image
             src="/downArrow.png"
             alt="Vercel Logo"
             className="dark:invert"
@@ -38,14 +38,14 @@ export default function Navigation() {
             priority
           /></Link>
           </div>
-          <Link href="../offers/offers" className=" text-white text-lg font-semibold">Offers </Link>
+          <Link href="../offers/offers" className=" text-Slate-600 text-lg font-semibold">Offers </Link>
         </div>
-        <div className="flex w-1/6 justify-evenly items-center bg-blue-700">
+        <div className="flex w-fit justify-evenly items-center ">
       <Link href="/">
         <Image
           src="/search.png"
           alt="Vercel Logo"
-          className="dark:invert"
+          className="dark:invert mr-6"
           width={25}
           height={24}
           priority
@@ -53,27 +53,27 @@ export default function Navigation() {
       </Link>
       <Link href="/">
         <Image
-          src="/cart.png"
+          src="/cart3.png"
           alt="Vercel Logo"
-          className="dark:invert"
+          className="dark:invert mr-6"
           width={25}
           height={24}
           priority
         />
       </Link>
-      <Link href="/contact-page/contact" className="">
-        <button className="basis-1 flex  text-white text-base font-normal">
-          <Image
-            src="/phone.png"
-            alt="Vercel Logo"
-            className="dark:invert"
-            width={25}
-            height={25}
-            priority
-          />
-          Contact
-        </button>
-      </Link>
+      <Link href="#" className="">
+              <button className="basis-1 flex  text-white tracking-wide text-base font-medium rounded-3xl bg-green-400 py-2 px-4 items-center">
+              <Image
+          src="/phone2.png"
+          alt="Vercel Logo"
+          className="dark:invert mr-3"
+          width={18}
+          height={24}
+          priority
+        />
+                Contact
+              </button>
+            </Link>
       </div>
       </div>
      
