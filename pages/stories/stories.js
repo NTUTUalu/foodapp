@@ -6,15 +6,15 @@ import Styles from "./stories.module.css";
 export default function Stories() {
   return (
     <>
-      <div className="wrapper  flex w-full  px-20 h-screen">
-        <div className="left flex flex-col  w-1/2 mt-32">
+      <div className="wrapper  flex w-full  px-20 h-screen max-md:px-10">
+        <div className="left flex flex-col  w-1/2 mt-32 max-md:mt-64">
           <h4 className="text-red-500 font-medium mb-6">
             OUR STORY & SERVICES
           </h4>
-          <h1 className="text-slate-950 font-bold text-4xl w-4/6 mb-6">
+          <h1 className="text-slate-950 font-bold text-4xl w-4/6 mb-6 max-md:text-3xl ">
             Our Culinary Journey And Services
           </h1>
-          <p className="w-4/6 text-slate-500 font-normal mb-8">
+          <p className="w-4/6 text-slate-500 font-normal mb-8 max-md:w-5/6">
             Rooted in passion, we curate unforgettable dining experiences and
             offer exceptional services, blending culinary artistry with warm
             hospitality.
@@ -27,10 +27,10 @@ export default function Stories() {
             </Link>
           </div>
         </div>
-        <div className="right w-1/2 grid grid-cols-2 gap-4">
-          <div className="Catering flex justify-center items-center">
+        <div className="right w-1/2 grid grid-cols-2 gap-0 max-md:w-4/6 max-md:gap-x-4 max-md:gap-y-10 ">
+          <div className="Catering flex justify-center items-center  max-md:items-end">
             <div
-              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center`}
+              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-3/6 max-md:${Styles.CardShadow2} max-md:p-1`}
             >
               <Image
                 src="/catering.png"
@@ -46,9 +46,9 @@ export default function Stories() {
               </p>
             </div>
           </div>
-          <div className="Fast-Delivery  flex justify-center items-center">
+          <div className="Fast-Delivery  flex justify-center items-center  max-md:items-end">
             <div
-              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center`}
+              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-3/6 max-md:p-1`}
             >
               <Image
                 src="/delivery.png"
@@ -66,19 +66,19 @@ export default function Stories() {
               </p>
             </div>
           </div>
-          <div className="Online-Ordering flex justify-center items-center">
+          <div className="Online-Ordering flex justify-center items-center  max-md:items-start">
             <div
-              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center`}
+              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-3/6 max-md:p-1`}
             >
               <Image
                 src="/online.png"
                 alt="Vercel Logo"
-                className="dark:invert"
+                className="dark:invert max-md:mb-1"
                 width={40}
                 height={40}
                 priority
               />
-              <h3 className="font-bold text-base text-green-600 ">
+              <h3 className="font-bold text-center leading-5 text-base text-green-600 ">
                 ONLINE ORDERING
               </h3>
               <p className="text-center text-slate-500">
@@ -86,9 +86,9 @@ export default function Stories() {
               </p>
             </div>
           </div>
-          <div className="Gift-Cards  flex justify-center items-center">
+          <div className="Gift-Cards  flex justify-center items-center  max-md:items-start">
             <div
-              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center`}
+              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-3/6 max-md:p-1 `}
             >
               <Image
                 src="/gift.png"
