@@ -18,8 +18,8 @@ export default function StandoutDishes() {
       </div>
       <div className="right flex flex-col w-full h-full ">
         <Carousel dotPosition="bottom" className="flex h-full ">
-          <div className="h-96 w-full flex justify-center bg-blue-300">
-            <div className=" right w-full  grid justify-items-center grid-cols-3 bg-blue-600 gap-6 h-5/6 max-md:gap-x-3">
+          <div className="h-96 w-full flex justify-center ">
+            <div className=" right w-full  grid justify-items-center grid-cols-3  gap-6 h-5/6 max-md:gap-x-3">
               <div className="card_1 flex w-full justify-center  items-center bg-pink-400">
                 <div
                   className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
@@ -147,7 +147,7 @@ export default function StandoutDishes() {
             <div className=" right w-full  grid justify-items-center grid-cols-3 gap-6 h-5/6 ">
               <div className="card_1 flex w-full justify-center  items-center">
                 <div
-                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center`}
+                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
                 >
                   <div className=" mr-2 flex justify-items-center items-center  p-2">
                     <Image
@@ -187,7 +187,7 @@ export default function StandoutDishes() {
               </div>
               <div className="card_1 flex w-full justify-center  items-center">
                 <div
-                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center`}
+                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
                 >
                   <div className=" mr-2 flex justify-items-center items-center  p-2">
                     <Image
@@ -227,7 +227,7 @@ export default function StandoutDishes() {
               </div>
               <div className="card_1 flex w-full justify-center  items-center">
                 <div
-                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center`}
+                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
                 >
                   <div className=" mr-2 flex justify-items-center items-center  p-2">
                     <Image
@@ -271,7 +271,7 @@ export default function StandoutDishes() {
             <div className=" right w-full  grid justify-items-center grid-cols-3 gap-6 h-5/6 ">
               <div className="card_1 flex w-full justify-center  items-center">
                 <div
-                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center`}
+                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
                 >
                   <div className=" mr-2 flex justify-items-center items-center  p-2">
                     <Image
@@ -311,7 +311,7 @@ export default function StandoutDishes() {
               </div>
               <div className="card_1 flex w-full justify-center  items-center">
                 <div
-                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center`}
+                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
                 >
                   <div className=" mr-2 flex justify-items-center items-center  p-2">
                     <Image
@@ -351,7 +351,7 @@ export default function StandoutDishes() {
               </div>
               <div className="card_1 flex w-full justify-center  items-center">
                 <div
-                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center`}
+                  className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
                 >
                   <div className=" mr-2 flex justify-items-center items-center  p-2">
                     <Image
