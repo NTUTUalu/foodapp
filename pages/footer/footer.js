@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <>
       <div className='flex-col w-full h-80'>
-        <div className=" grid grid-cols-4 gap-4 w-full upper_row h-4/5 justify-evenly px-20 py-12">
+        <div className=" grid grid-cols-4 gap-4 w-full upper_row h-4/5 justify-evenly px-20 py-12 max-md:px-10">
           <div className="firstColumn flex-col">
           <Link href="/" >
           <Image
             src="/foodlogo.png"
             alt="Vercel Logo"
-            className="dark:invert mb-4 "
+            className="dark:invert mb-4 max-md:w-20"
             width={100}
             height={25}
             priority
@@ -44,43 +44,43 @@ export default function Footer() {
             
           </div>
         </div>
-        <div className="lower_row flex w-full  h-2/6 align-middle px-20">
+        <div className="lower_row flex w-full  h-2/6 align-middle px-20 max-md:px-10">
           <div className="icons flex items-center">
-            <div className="mr-2 justify-items-center items-center rounded-full p-1.5 bg-blue-100 ">
+            <div className="mr-2 justify-items-center items-center rounded-full p-1.5 bg-blue-100 max-md:p-1">
             <Image
             src="/facebook.png"
             alt="Vercel Logo"
-            className="dark:invert"
+            className="dark:invert max-md:w-8"
             width={35}
             height={35}
             priority
           />
             </div>
-         <div className="mr-2  bg-blue-100 flex justify-items-center items-center rounded-full p-2">
+         <div className="mr-2  bg-blue-100 flex justify-items-center items-center rounded-full p-2 max-md:p-1.5">
          <Image
             src="/instagram.png"
             alt="Vercel Logo"
-            className="dark:invert "
+            className="dark:invert max-md:w-7"
             width={30}
             height={30}
             priority
           />
          </div>
-         <div className="mr-2 justify-items-center items-center rounded-full p-2 bg-blue-100">
+         <div className="mr-2 justify-items-center items-center rounded-full p-2 bg-blue-100 max-md:p-1">
          <Image
             src="/twitter.png"
             alt="Vercel Logo"
-            className="dark:invert  p-"
+            className="dark:invert max-md:w-7"
             width={30}
             height={30}
             priority
           />
          </div>
-       <div className="mr-2  justify-items-center items-center rounded-full p-2 bg-blue-100">
+       <div className="mr-2  justify-items-center items-center rounded-full p-2 bg-blue-100 max-md:p-1">
        <Image
             src="/youtube.png"
             alt="Vercel Logo"
-            className="dark:invert"
+            className="dark:invert max-md:w-8"
             width={30}
             height={30}
             priority

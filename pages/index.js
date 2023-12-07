@@ -16,7 +16,7 @@ export default function Home() {
       <StandoutDishes/>
 <Testimonies/>
 <Stories/>
-    <h1>hey this is the default home place</h1>
+  
     {/* this is our root page */}
     </>
   )
