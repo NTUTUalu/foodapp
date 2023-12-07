@@ -5,24 +5,24 @@ import b from '../contact-page/contact'
 export default function Navigation() {
   return (
     <>
-      <div className="flex  justify-between items-center py-6 px-20 w-full">
+      <div className="flex  justify-between items-center py-6 px-20 w-full max-md:px-5 ">
         <Link href="/" >
           <Image
             src="/foodlogo.png"
             alt="Vercel Logo"
-            className="dark:invert"
+            className="dark:invert max-md:w-24"
             width={120}
             height={25}
             priority
           />
         </Link>
-        <div className="flex  justify-between items-center w-1/4">
-          <Link href="/" className="text-green-400 text-lg font-semibold">   Home </Link>
+        <div className="flex  justify-between items-center w-1/4  max-md:w-fit">
+          <Link href="/" className="text-green-400 text-lg font-semibold max-md:mr-3">   Home </Link>
           <div>
             <Link href="../food-menu/food-menu" className="flex text-Slate-600 text-lg font-semibold">Menu  <Image
             src="/downArrow.png"
             alt="Vercel Logo"
-            className="dark:invert"
+            className="dark:invert max-md:mr-2"
             width={25}
             height={25}
             priority
@@ -32,7 +32,7 @@ export default function Navigation() {
             <Link href="../services/services" className="flex text-Slate-600 text-lg font-semibold">Services  <Image
             src="/downArrow.png"
             alt="Vercel Logo"
-            className="dark:invert"
+            className="dark:invert max-md:mr-2"
             width={25}
             height={25}
             priority
@@ -45,7 +45,7 @@ export default function Navigation() {
         <Image
           src="/search.png"
           alt="Vercel Logo"
-          className="dark:invert mr-6"
+          className="dark:invert mr-6 max-md:mr-3"
           width={25}
           height={24}
           priority
@@ -55,7 +55,7 @@ export default function Navigation() {
         <Image
           src="/cart3.png"
           alt="Vercel Logo"
-          className="dark:invert mr-6"
+          className="dark:invert mr-6 max-md:mr-3"
           width={25}
           height={24}
           priority
@@ -66,7 +66,7 @@ export default function Navigation() {
               <Image
           src="/phone2.png"
           alt="Vercel Logo"
-          className="dark:invert mr-3"
+          className="dark:invert mr-3 max-md:w-15"
           width={18}
           height={24}
           priority
