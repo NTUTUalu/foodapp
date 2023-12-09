@@ -6,14 +6,14 @@ import Styles from './populardishes.module.css'
 export default function PopularDishes() {
   return (
     <>
-      <div className="wrapper  flex flex-col w-full h-96 px-20 text-center max-md:px-10  max-md:my-40">
-        <div className="description flex flex-col   h-1/3 text-slate-500">
-          <h1 className="text-red-500 font-medium">CUSTOMER FAVORITES</h1>
-          <p className="text-4xl font-bold text-slate-700">
+      <div className="wrapper  flex flex-col w-full h-96 px-20 text-center max-md:px-10  max-md:my-40 max-sm:my-32 max-sm:h-fit max-sm: ">
+        <div className="description flex flex-col h-1/3 text-slate-500 max-sm:mb-8">
+          <h1 className="text-red-500 font-medium max-sm:mt-8">CUSTOMER FAVORITES</h1>
+          <p className="text-4xl font-bold text-slate-700 max-sm:text-3xl">
             Popular Categories
           </p>
         </div>
-        <div className="right w-full  grid  grid-cols-4 gap-4 h-3/5  max-md:">
+        <div className="right w-full  grid  grid-cols-4 gap-4 h-3/5  max-sm:grid-cols-2">
           <div className="card_1 flex justify-center  items-center ">
         
           <div className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full `}>
