@@ -7,7 +7,7 @@ export default function MoodSetter() {
   return (
     <>
       <div className="px-20 max-md:px-10  ">
-        <div className="wrapper flex w-full h-screen ">
+        <div className="wrapper flex w-full h-screen max-md:h-fit">
           <div className="left flex flex-col  w-1/2 mt-24 max-md:mt-12">
             <h1 className="text-5xl font-bold w-5/6 leading-tight max-md:text-3xl max-md:w-5/6">
               Dive into Delights <br />

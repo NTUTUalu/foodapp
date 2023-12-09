@@ -6,7 +6,7 @@ import Styles from './populardishes.module.css'
 export default function PopularDishes() {
   return (
     <>
-      <div className="wrapper  flex flex-col w-full h-96 px-20 text-center max-md:px-10 bg-blue-">
+      <div className="wrapper  flex flex-col w-full h-96 px-20 text-center max-md:px-10  max-md:my-40">
         <div className="description flex flex-col   h-1/3 text-slate-500">
           <h1 className="text-red-500 font-medium">CUSTOMER FAVORITES</h1>
           <p className="text-4xl font-bold text-slate-700">

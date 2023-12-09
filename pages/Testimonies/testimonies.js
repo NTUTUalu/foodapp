@@ -5,7 +5,7 @@ import b from "../contact-page/contact";
 export default function Testimonies() {
   return (
     <>
-      <div className="wrapper  flex w-full  h-screen px-20  max-md:px-10">
+      <div className="wrapper  flex w-full  h-screen px-20  max-md:px-10 max-md:h-fit max-md:my-40">
         <div className="left flex flex-col  w-1/2 mt-20  justify-center  max-md:justify-start max-md:mt-0">
           <div className="flex justify-center  ">
             <Image

@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function StandoutDishes() {
   return (
-    <div className="wrapper flex flex-col w-full h-screen px-20 mt-24 pt-10 bg-green-500 max-md:p-10">
+    <div className="wrapper flex flex-col w-full h-screen px-20 mt-24 pt-10 bg-green-500 max-md:p-10 max-md:h-fit max-md:mt-0">
       <div className="description flex flex-col mb-7 h-fit">
         <h1 className="text-slate-100 text-lg font-medium mb-5 tracking-wide">
           SPECIAL DISHES
@@ -20,7 +20,7 @@ export default function StandoutDishes() {
         <Carousel dotPosition="bottom" className="flex h-full ">
           <div className="h-96 w-full flex justify-center ">
             <div className=" right w-full  grid justify-items-center grid-cols-3  gap-6 h-5/6 max-md:gap-x-3">
-              <div className="card_1 flex w-full justify-center  items-center bg-pink-400">
+              <div className="card_1 flex w-full justify-center  items-center">
                 <div
                   className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
                 >
@@ -60,7 +60,7 @@ export default function StandoutDishes() {
                   </div>
                 </div>
               </div>
-              <div className="card_1 flex w-full justify-center  items-center bg-pink-400">
+              <div className="card_1 flex w-full justify-center  items-center ">
                 <div
                   className={`${Styles.CardShadow} bg-slate-50 w-5/6 h-full rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full`}
                 >

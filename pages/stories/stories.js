@@ -6,8 +6,8 @@ import Styles from "./stories.module.css";
 export default function Stories() {
   return (
     <>
-      <div className="wrapper  flex w-full  px-20 h-screen max-md:px-10">
-        <div className="left flex flex-col  w-1/2 mt-32 max-md:mt-64">
+      <div className="wrapper  flex w-full  px-20 h-screen max-md:px-10 max-md:h-fit max-md:mb-20">
+        <div className="left flex flex-col  w-1/2 mt-32 max-md:mt-8 ">
           <h4 className="text-red-500 font-medium mb-6">
             OUR STORY & SERVICES
           </h4>
@@ -28,9 +28,9 @@ export default function Stories() {
           </div>
         </div>
         <div className="right w-1/2 grid grid-cols-2 gap-0 max-md:w-4/6 max-md:gap-x-4 max-md:gap-y-10 ">
-          <div className="Catering flex justify-center items-center  max-md:items-end">
+          <div className="Catering flex justify-center items-center  max-md:items-end ">
             <div
-              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-3/6 max-md:${Styles.CardShadow2} max-md:p-1`}
+              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-full max-md:${Styles.CardShadow2} max-md:p-1`}
             >
               <Image
                 src="/catering.png"
@@ -48,7 +48,7 @@ export default function Stories() {
           </div>
           <div className="Fast-Delivery  flex justify-center items-center  max-md:items-end">
             <div
-              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-3/6 max-md:p-1`}
+              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-full max-md:p-1`}
             >
               <Image
                 src="/delivery.png"
@@ -68,7 +68,7 @@ export default function Stories() {
           </div>
           <div className="Online-Ordering flex justify-center items-center  max-md:items-start">
             <div
-              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-3/6 max-md:p-1`}
+              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-full max-md:p-1`}
             >
               <Image
                 src="/online.png"
@@ -88,7 +88,7 @@ export default function Stories() {
           </div>
           <div className="Gift-Cards  flex justify-center items-center  max-md:items-start">
             <div
-              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-3/6 max-md:p-1 `}
+              className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-full max-md:p-1 `}
             >
               <Image
                 src="/gift.png"
