@@ -5,7 +5,7 @@ import b from '../contact-page/contact'
 export default function Navigation() {
   return (
     <>
-      <div className="flex  justify-between items-center py-6 px-20 w-full max-md:px-5 ">
+      <div className="flex  justify-between items-center py-6 px-20 w-full max-md:px-5 max-sm:px-">
         <Link href="/" >
           <Image
             src="/foodlogo.png"
@@ -16,7 +16,7 @@ export default function Navigation() {
             priority
           />
         </Link>
-        <div className="flex  justify-between items-center w-1/4  max-md:w-fit">
+        <div className="flex  justify-between items-center w-1/4  max-md:w-fit max-sm:hidden">
           <Link href="/" className="text-green-400 text-lg font-semibold max-md:mr-3">   Home </Link>
           <div>
             <Link href="../food-menu/food-menu" className="flex text-Slate-600 text-lg font-semibold">Menu  <Image
@@ -40,7 +40,7 @@ export default function Navigation() {
           </div>
           <Link href="../offers/offers" className=" text-Slate-600 text-lg font-semibold">Offers </Link>
         </div>
-        <div className="flex w-fit justify-evenly items-center ">
+        <div className="flex w-fit justify-evenly items-center max-sm:hidden">
       <Link href="/">
         <Image
           src="/search.png"
@@ -74,7 +74,18 @@ export default function Navigation() {
                 Contact
               </button>
             </Link>
+           
       </div>
+      <Link href="/">
+        <Image
+          src="/menu3.png"
+          alt="Vercel Logo"
+          className="dark:invert mr-6 max-md:mr-3 hidden max-sm:flex"
+          width={40}
+          height={24}
+          priority
+        />
+      </Link>
       </div>
      
     </>

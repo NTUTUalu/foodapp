@@ -27,7 +27,7 @@ export default function Stories() {
             </Link>
           </div>
         </div>
-        <div className="right w-1/2 grid grid-cols-2 gap-0 max-md:w-4/6 max-md:gap-x-4 max-md:gap-y-10 max-sm:w-full max-sm:h-96">
+        <div className="right w-1/2 grid grid-cols-2 gap-0 max-md:w-4/6 max-md:gap-x-4 max-md:gap-y-10 max-sm:w-full max-sm:h-96 max-sm:px-10">
           <div className="Catering flex justify-center items-center  max-md:items-end ">
             <div
               className={`${Styles.CardShadow} bg-slate-50 w-3/4 h-4/6 rounded-xl flex flex-col p-6 justify-evenly items-center max-md:w-full max-md:h-full max-md:${Styles.CardShadow2} max-md:p-1`}
