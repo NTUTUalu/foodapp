@@ -87,7 +87,7 @@ export default function Footer() {
           />
        </div>
           </div>
-          <div className="copyrights flex items-center ml-16 text-sm text-slate-600 max-sm:w-full max-sm:m-0">
+          <div className="copyrights flex items-center ml-16 text-sm text-slate-600 max-sm:w-full max-sm:m-0 max-sm:justify-center">
             Copyright 
             <Image
             
