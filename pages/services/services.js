@@ -1,9 +1,19 @@
 import Link from "next/link";
 import Image from "next/image"; 
+import {Metadata} from "next";
+ 
+export const metadata= {
+  title: 'services page',
+  openGraph: {
+    title: 'Blog',
+  },
+}
 
 export default function Services() {
+  
   return (
     <>
+    
       {/* import Image from "next/image"; */}
       <div className='flex justify-center '>
           <Image
