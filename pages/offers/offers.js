@@ -1,10 +1,18 @@
 import Link from 'next/link';
 import Image from "next/image";
+import Head from "next/head"
 
 export default function Offers() {
     return (
         <>
-              {/* import Image from "next/image"; */}
+            
+     <div>
+      <Head>
+      <title>Offers page</title>
+      <meta property="og:description" content="this is the offers page to inform users about our offers as a restaurant"/>
+      </Head>
+      
+    </div>
       <div className='flex justify-center '>
           <Image
             src="/UnderConstruction.png"

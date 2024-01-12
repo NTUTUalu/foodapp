@@ -1,11 +1,18 @@
 import Link from 'next/link';
 import Image from "next/image";
-
+import Head from "next/head"
 
 export default function Foodmenu() {
     return (
         <>
-        {/* import Image from "next/image"; */}
+    
+     <div>
+      <Head>
+      <title>Food Menu page</title>
+      <meta property="og:description" content="this is the menu page to inform users about different cuisines we have offer"/>
+      </Head>
+      
+    </div>
           <div className='flex justify-center '>
           <Image
             src="/UnderConstruction.png"
