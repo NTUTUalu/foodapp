@@ -1,4 +1,4 @@
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import Navigation from "./navigation/navigation";
 import Link from "next/link";
 import Footer from "./footer/footer";
