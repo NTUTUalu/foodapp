@@ -1,8 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import b from '../contact-page/contact' 
+import { useRouter } from "next/router";
 
 export default function Navigation() {
+
+  const router = useRouter();
+  
   return (
     <>
       <div className="flex  justify-between items-center py-6 px-20 w-full max-md:px-5 max-sm:px-">
@@ -17,9 +21,9 @@ export default function Navigation() {
           />
         </Link>
         <div className="flex  justify-between items-center w-1/4  max-md:w-fit max-sm:hidden">
-          <Link href="/" className="text-green-400 text-lg font-semibold max-md:mr-3">   Home </Link>
+          <Link href="/" className={` text-lg font-semibold max-md:mr-3 ${router.pathname === "/" ? "text-green-400" : "text-Slate-600"}`} >   Home </Link>
           <div>
-            <Link href="../food-menu/food-menu" className="flex text-Slate-600 text-lg font-semibold">Menu  <Image
+            <Link href="../food-menu/food-menu" className={`flex text-lg font-semibold max-md:mr-3 ${router.pathname === "/food-menu/food-menu" ? "text-green-400" : "text-Slate-600"}`}>Menu  <Image
             src="/downArrow.png"
             alt="Vercel Logo"
             className="dark:invert max-md:mr-2"
@@ -29,7 +33,7 @@ export default function Navigation() {
           /></Link>
           </div>
           <div className="">
-            <Link href="../services/services" className="flex text-Slate-600 text-lg font-semibold">Services  <Image
+            <Link href="../services/services" className={`flex text-lg font-semibold max-md:mr-3 ${router.pathname === "/services/services" ? "text-green-400" : "text-Slate-600"}`}>Services  <Image
             src="/downArrow.png"
             alt="Vercel Logo"
             className="dark:invert max-md:mr-2"
@@ -38,7 +42,7 @@ export default function Navigation() {
             priority
           /></Link>
           </div>
-          <Link href="../offers/offers" className=" text-Slate-600 text-lg font-semibold">Offers </Link>
+          <Link href="../offers/offers" className={` text-lg font-semibold max-md:mr-3 ${router.pathname === "/offers/offers" ? "text-green-400" : "text-Slate-600"}`}>Offers </Link>
         </div>
         <div className="flex w-fit justify-evenly items-center max-sm:hidden">
       <Link href="/">
